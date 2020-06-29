@@ -29,11 +29,10 @@
         <section class="is-purple center-text big-space">
             <div class="container">
                 <div class="title">Hi, I'm Nikita. Nice to meet you.</div>
-                <div class="description big-space">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-                    kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</div>
+                <div class="description big-space">I have been in web development for more than 3 years.
+                    During this time I managed to work on freelance and in web agencies.
+                    I always take responsibility for my work and try to take everything on time.
+                    You will find more information about my abilities below.</div>
             </div>
         </section>
         <section class="slide-up-section">
@@ -144,11 +143,11 @@
         <section class="is-purple center-text big-space">
             <div class="container">
                 <div class="title">My Startup Projects</div>
-                <div class="description big-space">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-                    kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</div>
+                <div class="description big-space">
+                    Each developer has his own idea for a startup, and I am no exception.
+                    Over the past few years, I tried to launch several startups,
+                    it was a good experience for me, despite the fact that so far all of them have failed,
+                    I'm not going to stop there.</div>
             </div>
         </section>
         <section class="slide-up-section startup-blocks container">
@@ -224,5 +223,15 @@
             <div class="copy">Done by me &copy; Nikita Popov</div>
         </footer>
     </body>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
 
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
 </html>
