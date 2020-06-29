@@ -429,6 +429,14 @@ section {
        color: @main-dark;
        padding: 15px;
        .font-normal();
+
+       &:hover,
+       &:active,
+       &:focus {
+         border: 1px solid @main-border;
+         background: white;
+         outline: none;
+       }
      }
    }
  }

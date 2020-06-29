@@ -344,6 +344,13 @@ section.slide-up-section {
   padding: 15px;
   font-family: 'Roboto', sans-serif;
 }
+.form .form-row .form-input textarea:hover,
+.form .form-row .form-input textarea:active,
+.form .form-row .form-input textarea:focus {
+  border: 1px solid #E6ECF8;
+  background: white;
+  outline: none;
+}
 .form .form-submit {
   margin-top: 30px;
 }
