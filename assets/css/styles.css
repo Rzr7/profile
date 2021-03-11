@@ -238,6 +238,7 @@ section.slide-up-section {
 .startup-blocks {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .startup-blocks .startup-block {
   display: flex;
@@ -272,6 +273,7 @@ section.slide-up-section {
   font-size: 0.762rem;
   color: #141C3A;
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 .startup-blocks .startup-block .status {
   font-size: 0.762rem;
@@ -405,9 +407,6 @@ footer .copy {
   html {
     font-size: 18px;
   }
-  .startup-blocks {
-    flex-wrap: wrap;
-  }
   .form .form-row .form-input {
     width: 100%;
     margin-bottom: 15px;
@@ -443,9 +442,6 @@ footer .copy {
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 991px) {
-  .startup-blocks {
-    flex-wrap: wrap;
-  }
   .startup-blocks .startup-block {
     max-width: 320px;
   }
@@ -473,9 +469,6 @@ footer .copy {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .startup-blocks {
-    flex-wrap: wrap;
-  }
   .startup-blocks .startup-block {
     max-width: 300px;
   }

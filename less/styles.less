@@ -310,6 +310,7 @@ section {
 .startup-blocks {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 
   .startup-block {
     display: flex;
@@ -347,6 +348,7 @@ section {
       font-size: @font-small;
       color: @main-dark;
       padding-bottom: 15px;
+      padding-top: 15px;
     }
 
     .status {
@@ -505,10 +507,6 @@ footer {
     font-size: 18px;
   }
 
-  .startup-blocks {
-    flex-wrap: wrap;
-  }
-
   .form {
     .form-row {
       .form-input {
@@ -563,8 +561,6 @@ footer {
 
 @media only screen and (min-width: 600px) and (max-width: 991px) {
   .startup-blocks {
-    flex-wrap: wrap;
-
     .startup-block {
       max-width: 320px;
     }
@@ -608,8 +604,6 @@ footer {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .startup-blocks {
-    flex-wrap: wrap;
-
     .startup-block {
       max-width: 300px;
     }
