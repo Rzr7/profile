@@ -39,6 +39,10 @@
   text-align: center;
 }
 
+.justify-text {
+  text-align: justify;
+}
+
 .center-block {
   margin: 0 auto;
 }
@@ -267,6 +271,13 @@ section {
 
       img {
         max-width: 250px;
+      }
+
+      &.cover-image img {
+        max-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
       }
     }
 

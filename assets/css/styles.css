@@ -19,6 +19,9 @@
 .center-text {
   text-align: center;
 }
+.justify-text {
+  text-align: justify;
+}
 .center-block {
   margin: 0 auto;
 }
@@ -207,6 +210,12 @@ section.slide-up-section {
 }
 .portfolio-blocks .block .bg-image img {
   max-width: 250px;
+}
+.portfolio-blocks .block .bg-image.cover-image img {
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
 }
 .portfolio-blocks .block .hover-block {
   display: none;
